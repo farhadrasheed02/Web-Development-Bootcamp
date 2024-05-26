@@ -1,0 +1,26 @@
+body
+{   
+    background-color:black;
+    
+    
+}
+.Meme
+{
+background-color: black;
+color: white ;
+margin: 20px;
+text-align: center;
+margin-left: 25%;
+border: 5px;
+width: 50%;
+}
+.Picture
+{
+    width: 100%;
+}
+h1
+{
+    text-transform: uppercase;
+    align-content: center;
+
+}
