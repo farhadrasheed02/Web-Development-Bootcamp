@@ -1,1 +1,20 @@
 /* Write your code here: */
+h1,h2
+{
+    /* background-color: brown; */
+    color: violet;
+}
+
+.box > p, ul
+{
+   
+    color: green;
+}
+ul p.done
+{
+    
+    color:blue;
+} 
+body p{
+    color: brown;
+}
