@@ -9,18 +9,49 @@ TODO: Change the background color for each device
 [seagreen] Desktops: 1601px and more
 -->
 
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
   <title>Media Query</title>
+  
   <style>
     body {
       background-color: aquamarine;
     }
+   
+    @media(max-width: 319px) and (min-width:480px) 
+    {
+      body
+      {
+        background-color:violet;
+      }
+    }
+    @media(max-width: 481px) and (min-width:1200px) 
+    {
+      body
+      {
+        background-color:black;
+      }
+    }
+    @media(max-width: 1601px) and (min-width:2000px) 
+    {
+      body
+      {
+        background-color:cornflowerblue;
+      }
+    }
+    
+    
+      
+   
   </style>
 </head>
 
 <body>
+  <div>
+    <p>I am working on media query </p>
+  </div>
 </body>
 
 </html>
