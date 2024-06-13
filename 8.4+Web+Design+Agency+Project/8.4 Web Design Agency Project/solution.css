@@ -9,10 +9,7 @@ body {
 .main {
   flex: 1;
 }
-span
-{
-  color: blue;
-}
+
 h1 {
   font-size: 5rem;
 }
